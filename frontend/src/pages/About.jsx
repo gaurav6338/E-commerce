@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../components/Title'
 import {assets} from '../assets/frontend_assets/assets'
-import Newsletterbox from '../components/Newsletterbox'
+import NewsletterBox from '../components/NewsletterBox'
 
 const About = () => {
   return (
@@ -41,7 +41,7 @@ const About = () => {
           <p>We are committed to providing exceptional service to our customers, ensuring their satisfaction and loyalty.</p>
         </div>
       </div>
-      <Newsletterbox/>
+      <NewsletterBox/>
     </div>
   )
 }
