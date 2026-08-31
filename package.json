@@ -5,6 +5,9 @@
     "frontend",
     "backend"
   ],
+  "scripts": {
+    "build": "cd frontend && npm run build"
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",
     "tailwindcss": "^4.2.2"
